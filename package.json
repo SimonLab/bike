@@ -1,0 +1,22 @@
+{
+  "name": "bike",
+  "version": "1.0.0",
+  "description": "bike app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonLab/bike.git"
+  },
+  "keywords": [
+    "bike"
+  ],
+  "author": "SimonLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/bike/issues"
+  },
+  "homepage": "https://github.com/SimonLab/bike"
+}
