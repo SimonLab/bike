@@ -2,9 +2,10 @@
   "name": "bike",
   "version": "1.0.0",
   "description": "bike app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/tape/bin/tape ./test/*.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/SimonLab/bike/issues"
   },
-  "homepage": "https://github.com/SimonLab/bike"
+  "homepage": "https://github.com/SimonLab/bike",
+  "dependencies": {
+    "hapi": "^8.8.1",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "tape": "^4.0.2"
+  }
 }
