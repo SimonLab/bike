@@ -4,7 +4,8 @@
   "description": "bike app",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/tape/bin/tape ./test/*.js"
+    "test": "./node_modules/tape/bin/tape ./test/*.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
