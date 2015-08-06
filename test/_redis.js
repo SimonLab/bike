@@ -18,8 +18,8 @@ test('testing the connection with redis on heroku', function (t) {
   });
 
   client.on('error', function(err) {
-    client.end();
     t.fail(err);
+    client.quit();
     t.end();
   });
 });
