@@ -13,7 +13,7 @@ test('testing /users route', function (t) {
   });
 });
 
-test('testing /incr route', function (t) {
+test('testing /incr route with redis value', function (t) {
   var client = redis.createClient(redisURL.port, redisURL.hostname, {no_ready_check: true});
   client.auth(redisURL.auth.split(":")[1]);
 
