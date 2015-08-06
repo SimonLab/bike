@@ -1,7 +1,7 @@
 var Path = require('path');
 var home = require(Path.join(__dirname, 'handlers/home.js'));
 var users = require(Path.join(__dirname, 'handlers/users.js'));
-var redis = require(Path.join(__dirname, 'handlers/redis.js'))
+var redis = require(Path.join(__dirname, 'handlers/redis.js'));
 
 var routes = [
 {
