@@ -1,5 +1,4 @@
 var test = require('tape');
-var cheerio = require('cheerio');
 var server = require('../api/server.js');
 
 test('testing / route', function (t) {
